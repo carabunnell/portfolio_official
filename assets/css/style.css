@@ -111,6 +111,9 @@ body {
    text-align: center;
    color: white;
 } 
+.links-to {
+    color: white;
+}
 
 /* media query .imagefluid
 padding-right: 60px; */
