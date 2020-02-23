@@ -1,0 +1,135 @@
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUtsKcJxaXKZ18Ls8yPdW9MX_tW9brwvKP7hoHYIwwRSuQ9o8h&s");
+    background-color: #cccccc;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    min-height: 100%;
+}
+
+.header {
+    position: absolute;
+    top: 0px;
+    left: 10%;
+    background: red;
+    bottom: 0px;
+    padding: 10px 30px 10px 30px;
+    color: white;
+  
+ }
+ /* grey bar navbar*/
+ .navbar.navbar-expand-lg.navbar-light.bg-light {
+    padding: 30px;
+    border-bottom: 1px solid red;
+ }
+
+ /* menu link list*/
+ .collapse.navbar-collapse {
+    position: absolute;
+    right: 10%;
+    top: 10px;
+ }
+
+ /*navbar button*/
+ .navbar-light .navbar-toggler {
+    background: purple;
+    position: absolute;
+    right: 50px;
+ }
+  
+.container {
+    min-height: 100%;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+
+.main-background-in-container {
+    background: white;
+    border: 1px solid red;
+    padding-right: 30px;
+    margin-bottom: 150px;
+}
+
+#main-page-header {
+    padding: 25px 0px 15px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid rosybrown;
+}
+
+ .imagefluid {
+     width: 100%;
+     float: left;
+     margin: 0px 30px 30px 30px;
+ }
+
+ .text-about-me-main {
+    margin-left: 30px;
+    margin-bottom: 30px;
+ }
+
+ footer {
+   bottom: 0px;
+   padding: 20px;
+   width: 100%;
+   background: red;
+   border-top: 5px solid rosybrown;
+   margin-top: 110px;
+}
+
+#footertext {
+   text-align: center;
+   color: rosybrown;
+   font-size: 10px;
+}
+
+ /* contact page css */
+ form {
+    margin: 30px 30px 30px 30px;
+ }
+
+ .btn.btn-primary {
+    background: red;
+ }
+  
+ /* PORFOLIO PAGE STYLING */
+ .portfolioimage {
+   width: 200px;
+   height: 150px;
+}
+
+.portfolio-div-org {
+   margin: 0px 30px 0px 30px;
+}
+
+.imagetext {
+   position: relative;
+   bottom: 60px;
+   padding: 5px;
+   width: 200px;
+   background-color: darkgrey;
+   opacity: 0.8;
+   text-align: center;
+   color: white;
+} 
+
+/* media query .imagefluid
+padding-right: 60px; */
+@media screen and (max-width: 991px) {
+   .imagefluid {
+      padding-right: 35px;
+   }
+   .portfolioimage {
+      width: 100%;
+      height: auto;
+   }
+   .imagetext {
+      width: 100%;
+      font-size: 30px;
+      bottom: 100px;
+   }
+   .text-about-me-main {
+      font-size: 24px;
+   }
+}
+
+
