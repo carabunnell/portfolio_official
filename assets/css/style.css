@@ -1,138 +1,217 @@
-body {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUtsKcJxaXKZ18Ls8yPdW9MX_tW9brwvKP7hoHYIwwRSuQ9o8h&s");
-    background-color: #cccccc;
-    background-repeat: no-repeat; 
-    background-size: cover;
-    min-height: 100%;
+.image-header-navbar {
+   background-image: url("../images/3.24.19_10am Ps Leanne-0682.JPG");
+   background-size: cover;
+   
+}
+.background-transparent {
+   background-color: rgba(15, 15, 13, 0.7);
+   /* position: absolute; */
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   height: 100%;
+}
+   
+
+.about-me {    
+   font-weight: 100;
+   color: white;
+   text-align: center;
+   /* opacity: 1; */
+}
+ul {
+   text-align: center; 
+}
+li {
+   display: inline;
+   text-align: center;
+   text-decoration: none;
+}
+.my-portfolio-head {
+   font-weight: 100;
+   color: white;
+   text-align: center;
+   padding: 30px;
+}
+.about-me-head {
+   padding: 30px;
+   background-color: white;
+}
+/* .header-divs {
+   /* z-index: 1;
+} */
+.header-main-head {
+   padding: 100px;
+   /* z-index: 1; */
+}
+.other-main-headers {
+   /* font-weight: 100; */
+   /* color: white; */
+   text-align: center;
+}
+.jumbotron {
+   background-color: transparent;
+}
+.spacing {
+   margin-top: 0px;
+   margin-bottom: 30px;
 }
 
-.header {
-    position: absolute;
-    top: 0px;
-    left: 10%;
-    background: red;
-    bottom: 0px;
-    padding: 10px 30px 10px 30px;
-    color: white;
-  
- }
- /* grey bar navbar*/
- .navbar.navbar-expand-lg.navbar-light.bg-light {
-    padding: 30px;
-    border-bottom: 1px solid red;
- }
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+   /* color: black; */
+   
+   padding: 30px;
+   border-bottom: 1px solid red;
+   opacity: 0.5;
+   height: 30px;
+}
+/* .nav-item.nav-link {
+  opacity: 5;
+} */
+/* menu link list*/
+.collapse.navbar-collapse {
+   position: absolute;
+   right: 10%;
+   top: 10px;
+}
 
- /* menu link list*/
- .collapse.navbar-collapse {
-    position: absolute;
-    right: 10%;
-    top: 10px;
- }
-
- /*navbar button*/
- .navbar-light .navbar-toggler {
-    background: purple;
-    position: absolute;
-    right: 50px;
- }
-  
+/*navbar button*/
+.navbar-light .navbar-toggler {
+   background: purple;
+   position: absolute;
+   right: 50px;
+}
+ 
 .container {
-    min-height: 100%;
-    margin-top: 50px;
-    margin-bottom: -50px;
+   min-height: 100%;
+   margin-top: 50px;
+   margin-bottom: -50px;
 }
 
 .main-background-in-container {
-    background: white;
-    border: 1px solid red;
-    padding-right: 30px;
-    margin-bottom: 150px;
+   background: white;
+   border: 1px solid red;
+   padding-right: 30px;
+   margin-bottom: 150px;
 }
 
 #main-page-header {
-    padding: 25px 0px 15px;
-    margin-left: 30px;
-    margin-bottom: 30px;
-    border-bottom: 3px solid rosybrown;
+   padding: 25px 0px 15px;
+   margin-left: 30px;
+   margin-bottom: 30px;
+   border-bottom: 3px solid rosybrown;
 }
 
- .imagefluid {
-     width: 100%;
-     float: left;
-     margin: 0px 30px 30px 30px;
- }
+.imagefluid {
+    width: 100%;
+    float: left;
+    margin: 0px 30px 30px 30px;
+    border-radius: 50%;
+}
 
- .text-about-me-main {
-    margin-left: 30px;
-    margin-bottom: 30px;
- }
+.text-about-me-main {
+   margin-left: 30px;
+   margin-bottom: 30px;
+}
 
- footer {
-   bottom: 0px;
-   padding: 20px;
-   width: 100%;
-   background: red;
-   border-top: 5px solid rosybrown;
-   margin-top: 110px;
+.contact-me-footer {
+    margin-top: 100px;
+    margin-bottom: 0px;
+    color: white;
+    background-color: #454140;
+    width: 100%;
+    padding: 20px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 10;
+}
+
+footer {
+  bottom: 0px;
+  padding: 20px;
+  width: 100%;
+  background: black;
+  border-top: 5px solid rosybrown;
+  /* margin-top: 110px; */
 }
 
 #footertext {
-   text-align: center;
-   color: rosybrown;
-   font-size: 10px;
+  text-align: center;
+  color: rosybrown;
+  font-size: 10px;
 }
 
- /* contact page css */
- form {
-    margin: 30px 30px 30px 30px;
- }
+/* contact page css */
+form {
+   margin: 30px 30px 30px 30px;
+}
 
- .btn.btn-primary {
-    background: red;
- }
-  
- /* PORFOLIO PAGE STYLING */
- .portfolioimage {
-   width: 200px;
-   height: 150px;
+.btn.btn-primary {
+   background: red;
+}
+ 
+/* PORFOLIO PAGE STYLING */
+.portfolioimage {
+    /* position: absolute; */
+  width: 290px;
+  height: 150px;
+  bottom: 20px;
 }
 
 .portfolio-div-org {
-   margin: 0px 30px 0px 30px;
+  /* margin: 0px 30px 0px 30px; */
+  /* background-color: burlywood; */
+  border-radius: 25px;
+  border-style: 1px solid black;
 }
-
+.portfolio-background-geeky {
+   background-image: url(../images/creating-fictional-languages-Header-1024x535.jpg);
+}
+.portfolio-background-weather {
+   background-image: url(../images/images-2.jpg);
+}
+.portfolio-background-scheduler {
+   background-image: url(../images/download.png);
+}
 .imagetext {
-   position: relative;
-   bottom: 60px;
-   padding: 5px;
-   width: 200px;
-   background-color: darkgrey;
-   opacity: 0.8;
-   text-align: center;
-   color: white;
+  position: relative;
+  bottom: 60px;
+  padding: 5px;
+  width: 290px;
+  background-color: blue;
+  opacity: 0.8;
+  text-align: center;
+  color: white;
 } 
 .links-to {
-    color: white;
+   color: white;
+}
+.portfolio-descriptions {
+   text-align: center;
+   margin: 10px;
+   color: white;
+}
+.portfolio-repos {
+   color: grey;
 }
 
 /* media query .imagefluid
 padding-right: 60px; */
 @media screen and (max-width: 991px) {
-   .imagefluid {
-      padding-right: 35px;
-   }
-   .portfolioimage {
-      width: 100%;
-      height: auto;
-   }
-   .imagetext {
-      width: 100%;
-      font-size: 30px;
-      bottom: 100px;
-   }
-   .text-about-me-main {
-      font-size: 24px;
-   }
+  .imagefluid {
+     padding-right: 35px;
+  }
+  .portfolioimage {
+     width: 100%;
+     height: auto;
+  }
+  .imagetext {
+     width: 100%;
+     font-size: 30px;
+     bottom: 100px;
+  }
+  .text-about-me-main {
+     font-size: 24px;
+  }
 }
-
 
